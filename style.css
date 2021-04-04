@@ -1,9 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    height: 95vh;
-    width: 95;
+    position: relative;
+    height: 100vh;
+}
+
+.jogo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 139, 44);
+    background-color: #444;
+}
+
+.start{
+    margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(44, 139, 44);
+}
+
+.reiniciar button{
+    color: #ff2345;
+    font-family: 'Vast Shadow', cursiva;
+    padding: 10px 10px;
+    height: 150px;
+    width: 270px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9999;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+button{
+    font-family: 'Vast Shadow', cursiva;
+    padding: 10px 40px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffffcc;
 }
